@@ -1,0 +1,29 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "URL SHORTENER",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexx345/urlshortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexx345/urlshortener/issues"
+  },
+  "homepage": "https://github.com/Alexx345/urlshortener#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
